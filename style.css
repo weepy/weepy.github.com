@@ -13,10 +13,10 @@ body{font:13px/1.231 arial,helvetica,clean,sans-serif;*font-size:small;*font:x-s
 /* ====== Page Head, Body, and Foot ====== */
 body{_text-align:center;}/* IE5.5 */
 .body{overflow:hidden; _overflow:visible; _zoom:1;}
-.page,#container{margin: 0 auto; width: 950px;_text-align:left;} /* wraps other template elems to set width */ /* text-align IE5.5 */
+.page,#container{margin: 0 auto; width: 600px;_text-align:left;} /* wraps other template elems to set width */ /* text-align IE5.5 */
 /* "old school" and "liquid" extend page to allow for different page widths */
-.oldSchool{width:750px;}
-.gs960{width:960px;}
+.oldSchool{width:480px;}
+.gs960{width:610px;}
 .liquid{extends:.page; width: auto;margin:0;}
 /* ====== Columns ====== */
 .main{overflow: hidden;_overflow:visible;_zoom:1;}
